@@ -1,0 +1,36 @@
+nav {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #125488;
+  box-sizing: border-box;
+  padding: 20px 8px;
+  z-index: 2;
+}
+
+.navItem {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.logout{
+  position: absolute;
+  right: 50px;
+}
+
+.loggedInUser{
+  position: absolute;
+  right: 200px;
+}
+
+.title{
+  position: absolute;
+  left: 900px;
+}
+
+h2, h3, h5{
+  color:white;
+}
